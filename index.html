@@ -1,125 +1,167 @@
+<!--This is contact.html-->
 <!DOCTYPE html>
-<html>
+  <html>
     <head>
-        <title>Contact Page</title>
-<link rel="stylesheet" href="mycss.css" type="text/css">
-         <script src="myjs.js"></script>
-
-        <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" href="mycss.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+<!--       below link to be removed when going to add in doc2pen  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
     </head>
-<body>
-    <div id="main-wrapper">
-       <section class="product_section testimonials_section">
-            <div class="container">
-                <div class="row">
-                     <div class="col-md-12">
-                        <div class="owl-carousel owl-theme">
-                           <div class=" item">
-                              <div class="service_card card">
-                                 <div class="ListingCardHQ">
-                                    <div class="LazyLoadImage">
-                                        <img class="ListingCardHQ__photo" src="smaran.png" alt=""></div>
-                                    <div class="ListingCard__details">
-                                      <span class="ListingCard__proName">Smaranjit Ghose</span>
-                                          <p class="bold">Mentor</p>
-                                    </div>
-                                </div>
-                              </div>
-                             
-                           </div>
-                           <div class=" item">
-                              <div class="service_card card">
-                                 <div class="ListingCardHQ">
-                                    <div class="LazyLoadImage">
-                                        <img class="ListingCardHQ__photo" src="anush.jfif" alt=""></div>
-                                    <div class="ListingCard__details">
-                                      <span class="ListingCard__proName">Anush Bhatiya</span>
-                                          <p class="bold">Mentor </p>
-                                    </div>
-                                </div>
-                              </div>
-                             
-                           </div>
-                           <div class=" item">
-                              <div class="service_card card">
-                                 <div class="ListingCardHQ">
-                                    <div class="LazyLoadImage">
-                                        <img class="ListingCardHQ__photo" src="a2.png" alt=""></div>
-                                    <div class="ListingCard__details">
-                                      <span class="ListingCard__proName">Aman Patel</span>
-                                          <p class="bold">Mentee </p>
-                                    </div>
-                                </div>
-                              </div>
-                             
-                           </div>
-                           <div class=" item">
-                              <div class="service_card card">
-                                 <div class="ListingCardHQ">
-                                    <div class="LazyLoadImage">
-                                        <img class="ListingCardHQ__photo" src="shi2.png" alt=""></div>
-                                    <div class="ListingCard__details">
-                                      <span class="ListingCard__proName">Shilpe Saxena</span>
-                                          <p class="bold">Mentee</p>
-                                    </div>
-                                </div>
-                              </div>
-                             
-                           </div>
-                           <div class=" item">
-                              <div class="service_card card">
-                                 <div class="ListingCardHQ">
-                                    <div class="LazyLoadImage">
-                                        <img class="ListingCardHQ__photo" src="sonali2.png" alt=""></div>
-                                    <div class="ListingCard__details">
-                                      <span class="ListingCard__proName">Sonali</span>
-                                          <p class="bold">Mentee </p>
-                                    </div>
-                                </div>
-                              </div>
-                             
-                           </div>
-                                  
-                            
-                            <div class=" item">
-                              <div class="service_card card">
-                                 <div class="ListingCardHQ">
-                                    <div class="LazyLoadImage">
-                                        <img class="ListingCardHQ__photo" src="v2.png" alt=""></div>
-                                    <div class="ListingCard__details">
-                                      <span class="ListingCard__proName">Varun Verma</span>
-                                          <p class="bold">Mentee </p>
-                                    </div>
-                                </div>
-                              </div>
-                             
-                           </div>
-                            
-                            
-                            <div class=" item">
-                              <div class="service_card card">
-                                 <div class="ListingCardHQ">
-                                    <div class="LazyLoadImage">
-                                        <img class="ListingCardHQ__photo" src="" alt=""></div>
-                                    <div class="ListingCard__details">
-                                      <span class="ListingCard__proName">Swarnabha Das </span>
-                                          <p class="bold">Mentee </p>
-                                    </div>
-                                </div>
-                              </div>
-                             
-                           </div>
-                            
-                                                
-                        </div>
-                    </div>  
-                            
+
+    <body>
+        
+<!--        header with illustrations and content   -->
+        <header>
+            <div class="our-team">   
+                    <h5>Our Team</h5>
+                <div class="illustration-text">
+                    <div class="illustration">
+                        <img src="undraw_content_team_3epn(1).svg" alt="team-pic">
+                    </div>
+                    <div class="text">
+                        <p>We've got a team that truly represents the power of Open-Source. Both project maintainers and contributers have 
+                        worked as a team to give you a user-friendly interface and minimalistic design.</p>
+                    </div>
                 </div>
             </div>
-        </section>
+        </header>
+        
+        
+<!--    Css Cards   -->
+       
+                            
+                            <h5 class="text-center">Project Maintainers</h5>
+<!--    Mentor's Cards div start-->
+        <div class="wrap">
+<div class="tile"> 
+  <img src='smaran.png'/>
+  <div class="text">
+  <h1>Smaranjit Ghose</h1>
+  <h2 class="animate-text">Mentor</h2>
+  <p class="animate-text">A student's savior to submit those assignments by just typing them out and getting it handwritten on the go!
+<a href="https://github.com/smaranjitghose" target="_blank"><img class="git-linkedin" src="github.svg" style="margin:  30% 30% 0 0;"></a>
+<a href="https://www.linkedin.com/in/smaranjitghose" target="_blank"><img class="git-linkedin"  src="linkedin.svg" style="margin: 30%; -10%;"></a></p>
+      <div class="dots">
+    
+  </div>
+  </div>
+ </div>
 
-    </div>
 
-</body>
-</html>
+<div class="tile"> 
+  <img src='anush.jfif'/>
+  <div class="text">
+  <h1>Anush Bhatiya</h1>
+  <h2 class="animate-text">Mentor</h2>
+  <p class="animate-text">A student's savior to submit those assignments by just typing them out and getting it handwritten on the go!
+      <a href="https://github.com/anushbhatia" target="_blank"><img class="git-linkedin" src="github.svg" style="margin:30% 30% 0 0;"></a>
+                                        <a href="https://www.linkedin.com/in/anushbhatia/" target="_blank"><img class="git-linkedin"  src="linkedin.svg" style="margin: 30%; -10%;"></a>
+      </p>
+<div class="dots">
+  </div>
+  </div>
+ </div>
+  
+  
+  
+</div>
+                         <!--  Mentee's Cards div starts -->
+    <div class="profile-container">
+      <div class="profile-card">
+        <img src="a2.png" alt="image1" class="profile-icon" />
+        <div class="profile-name">Aman Patel</div>
+        <div class="profile-position">Mentee</div>
+          <div class="links">
+        <a href="github.com/thealphacod3r" target="_blank"><img class="git-linkedin" src="github.svg" style="margin: 0 4px;"></a>
+      <a href="https://www.linkedin.com/in/thealphacod3r/" target="_blank"><img class="git-linkedin"  src="linkedin.svg" style="margin: 0 4px;"></a>
+            </div>
+      </div>
+        
+      <div class="profile-card">
+        <img src="shi2.png" alt="image2" class="profile-icon" />
+        <div class="profile-name">Shilpe Saxena</div>
+        <div class="profile-position">Mentee</div>
+          <div class="links">
+        <a href="https://github.com/shilpe26" target="_blank"><img class="git-linkedin" src="github.svg" style="margin: 0 4px;"></a>
+      <a href="https://www.linkedin.com/in/shilpe-saxena-heartly-winner/" target="_blank"><img class="git-linkedin"  src="linkedin.svg" style="margin: 0 4px;"></a>
+          </div>
+      </div>
+        
+      <div class="profile-card">
+        <img src="v2.png" alt="image3" class="profile-icon" />
+        <div class="profile-name">Varun Verma</div>
+        <div class="profile-position">Mentee</div>
+          <div class="links">
+    <a href="https://github.com/Varun-28" target="_blank"><img class="git-linkedin" src="github.svg" style="margin: 0 4px;"></a>
+      <a href="https://www.linkedin.com/in/varun-verma-a-budding-engineer/" target="_blank"><img class="git-linkedin"  src="linkedin.svg" style="margin: 0 4px;"></a>
+          </div>
+      </div>
+        
+      <div class="profile-card">
+        <img src="sonali2.png" alt="image3" class="profile-icon" />
+        <div class="profile-name">Sonali</div>
+        <div class="profile-position">Mentee</div>
+          <div class="links">
+        <a href=" https://github.com/Sonali12920" target="_blank"><img class="git-linkedin" src="github.svg" style="margin: 0 4px;"></a>
+      <a href=" https://www.linkedin.com/in/sonali-a989a8192/" target="_blank"><img class="git-linkedin"  src="linkedin.svg" style="margin: 0 4px;"></a>
+          </div>
+      </div>
+    </div>            
+                       
+<!--  Mentee's Cards div starts -->
+  
+
+
+
+<!--    Mentor's Cards div end-->
+                
+                            <h5 class="text-center">Project Contributers</h5>
+                            
+<!--    Mentee's Cards div starts -->
+                        
+                        
+<!--    Mentee's Cards div starts -->
+           
+<!--  Card Css ends  -->
+        
+<!--  Also Visit section starts        -->
+    <section>
+        <div class="container">
+            <div class="Also-visit">
+                <h5>Also Visit</h5>
+                <ul>
+                    <li>Our <a href="https://github.com/smaranjitghose/doc2pen" target="_blank"><i class="fa fa-git-square" style="font-size:36px"></i></a>Hub and give us a <i class="fa fa-star-o" style="font-size:24px"></i>.</li>
+                    <li><a href="https://www.patreon.com/smaranjitghose/creators" target="_blank"><button class="btn">Patreon</button></a> by Smaranjit Ghose.</li>
+                    <li><a href="https://www.buymeacoffee.com/anushbhatia" target="_blank"><button class="btn">buymecoffee</button></a> by Anush Bhatia.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+<!--  Also Visit section ends      -->
+        
+          <script src="assets/js/jquery.js" ></script>
+      <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+      <script>
+          $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+      </script>
+      <script>
+        $(document).ready(function() {
+        //Preloader
+        preloaderFadeOutTime = 1500;
+        function hidePreloader() {
+        var preloader = $('.spinner-wrapper');
+        preloader.fadeOut(preloaderFadeOutTime);
+        }
+        hidePreloader();
+        });
+        </script>
+    </body>
+  </html>
